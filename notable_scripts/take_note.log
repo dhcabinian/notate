@@ -1,0 +1,17 @@
+DEBUG [ /Users/davidcabinian/notable_scripts/notable_scripts/dotfile_manager.py:47 setup_notable_folders ] root - Found the following notable directories from the dotfile: ['/Users/davidcabinian/Box Sync/Work Notes', '/Users/davidcabinian/Work/Notable']
+DEBUG [ /Users/davidcabinian/notable_scripts/notable_scripts/dotfile_manager.py:77 setup_notable_folders ] root - notable_note_subfolder identified as: /Users/davidcabinian/Work/Notable/notes
+DEBUG [ take_note.py:63 setup_section_generators ] root - Loaded section generators: {'Action Items': <function generate_action_items at 0x1029bcb00>,
+ 'Code': <function generate_code at 0x10269a560>,
+ 'Diagram': <function generate_diagram at 0x1029bccb0>,
+ 'Document': <function generate_document_note at 0x1029bcdd0>,
+ 'Email': <function generate_email at 0x1029e0d40>,
+ 'Math': <function generate_math at 0x1029bcc20>,
+ 'Meeting': <function generate_meeting at 0x1029e24d0>,
+ 'Open Questions': <function generate_open_questions at 0x1029bca70>,
+ 'Related Notes': <function generate_related_notes at 0x1029bc4d0>,
+ 'Table': <function generate_table at 0x1029bcb90>,
+ 'Video': <function generate_video_section at 0x1029ec9e0>,
+ 'Web Article': <function generate_web_article_section at 0x1029e0e60>}
+DEBUG [ take_note.py:118 get_note_topic ] root - note_topic: Meeting
+DEBUG [ take_note.py:85 generate_sections ] root - User selected the following sections to generate: {'fields_to_generate': []}
+DEBUG [ /Users/davidcabinian/notable_scripts/notable_scripts/note.py:70 get_note_title ] root - No valid titles found. Prompting user...
