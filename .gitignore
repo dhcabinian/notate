@@ -1,3 +1,4 @@
 __pycache__
 notable_scripts.egg-info
 .DS_Store
+dist/**
