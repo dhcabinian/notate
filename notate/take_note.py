@@ -28,15 +28,15 @@ import logging
 from pathlib import Path
 import pprint
 
-from notable_scripts.note import Note
-import notable_scripts.code_parser as code_parser
-import notable_scripts.default_fields_generator as default_fields_generator
-import notable_scripts.document_parser as document_parser
-import notable_scripts.dotfile_manager as dotfile_manager
-import notable_scripts.email_parser as email_parser
-import notable_scripts.meeting_parser as meeting_parser
-import notable_scripts.web_parser as web_parser
-import notable_scripts.video_parser as video_parser
+from notate.note import Note
+import notate.code_parser as code_parser
+import notate.default_fields_generator as default_fields_generator
+import notate.document_parser as document_parser
+import notate.dotfile_manager as dotfile_manager
+import notate.email_parser as email_parser
+import notate.meeting_parser as meeting_parser
+import notate.web_parser as web_parser
+import notate.video_parser as video_parser
 
 
 def setup_section_generators() -> dict:

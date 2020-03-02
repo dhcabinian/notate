@@ -1,6 +1,6 @@
 from PyInquirer import prompt
-import notable_scripts.utils as utils
-import notable_scripts.dotfile_manager as dotfile_manager
+import notate.utils as utils
+import notate.dotfile_manager as dotfile_manager
 
 
 def generate_document_note(note):

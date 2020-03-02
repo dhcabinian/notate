@@ -1,4 +1,4 @@
-from notable_scripts import __version__
+from notate import __version__
 
 
 def test_version():

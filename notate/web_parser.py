@@ -1,7 +1,7 @@
 from PyInquirer import prompt
-import notable_scripts.utils as utils
+import notate.utils as utils
 import os
-import notable_scripts.dotfile_manager as dotfile_manager
+import notate.dotfile_manager as dotfile_manager
 
 
 def generate_web_article_section(note):

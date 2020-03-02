@@ -29,12 +29,12 @@ def setup_notable_folders():
         NOTABLE_ATTACH_PATH is None
     ), f"NOTABLE_ATTACH_PATH was already set: {NOTABLE_ATTACH_PATH}"
 
-    dotfile_path = os.path.join(Path.home(), ".notable_scripts")
+    dotfile_path = os.path.join(Path.home(), ".notate")
     print(dotfile_path)
 
     assert os.path.exists(
         dotfile_path
-    ), f"Dotfile (~/.notable_scripts) does not exist. Please create one."
+    ), f"Dotfile (~/.notate) does not exist. Please create one."
 
     notable_data_directories = []
     with open(dotfile_path, "r") as fh:
@@ -51,7 +51,7 @@ def setup_notable_folders():
         {
             "type": "list",
             "name": "notable_folder",
-            "message": "Which notable data directory should this note be saved in (parsed from ~/.notable_scripts)?",
+            "message": "Which notable data directory should this note be saved in (parsed from ~/.notate)?",
             "choices": notable_data_directories,
         }
     ]

@@ -7,7 +7,7 @@ import re
 import logging
 from PyInquirer import prompt
 import os
-import notable_scripts.utils as utils
+import notate.utils as utils
 import json
 
 
